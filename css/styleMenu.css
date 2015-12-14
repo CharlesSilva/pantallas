@@ -1,0 +1,27 @@
+header, main, footer {
+        padding-left: 240px;
+      }
+
+      @media only screen and (max-width : 992px) {
+        header, main, footer {
+        padding-left: 0;
+        }
+      }
+      #slide-out li:hover, #menu li:hover{
+        background-color: white;
+      }
+      #listaAcordeon ul li:hover{
+        background-color: #bbdefb;
+      }
+      #slide-out::-webkit-scrollbar{
+        display: none;
+      }
+      #slide-out{
+        //overflow: hidden;
+      }
+      #slide-out:hover{
+       //overflow: scroll;
+      }
+      #indexMenu{
+        max-width: 200px !important;
+      }

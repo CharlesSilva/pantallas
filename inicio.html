@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+  <html>
+
+    
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <!--Import materialize.css-->
+      <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+      
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+      <link rel="shortcut icon" href="media/favicon.png" type="image/x-icon" />
+      <!-- Insertamos la hoja de estilos del Menu -->
+      <link rel="stylesheet" type="text/css" href="css/styleMenu.css">
+
+      <!-- Incertamos la hoja de estilos del Footer -->
+      <link rel="stylesheet" type="text/css" href="css/styleFooter.css">
+      <style type="text/css">
+         
+      #contModal{
+        font-size: 50px;
+      }
+
+      </style>
+      </head>
+
+    <body>
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+
+      <!-- incertamos el script del Menu -->
+      <script type="text/javascript" src="js/scriptMenu.js"></script>
+
+      <!-- incertamos el script del footer -->
+      <script type="text/javascript" src="js/scriptFooter.js"></script>
+
+      <script type="text/javascript">
+
+      $(document).ready(function(){
+
+        $('.modal-trigger').leanModal(); //activacion de las ventanas modales
+
+      });
+
+      </script>
+
+      <header>
+        <div class="navbar-fixed">
+          <nav>
+            <div class="nav-wrapper blue lighten-1 ">
+                <a href="#" data-activates="menu" class="button-collapse"><i class="material-icons">menu</i></a>
+                <a href="#!" class="brand-logo ">. : : Business Manager : : .</a>
+              
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- INICIO del IndexMenu -->
+      
+        <ul id="slide-out" class="side-nav fixed hide-on-med" id="IndexMenu">
+          <img src="media/images/LogoTabares.png" class="responsive-img" >
+          <li class="divider" id="dividerMenu"></li>
+          <li class="no-padding" id="listaAcordeon">
+            <ul class="collapsible no-padding" data-collapsible="accordion">
+              <li class="bold no-padding"><a href="#!" class="collapsible-header no-padding ">Listados full</a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a href="">Productos</a></li>
+                    <li><a href="">Departamentos</a></li>
+                    <li><a href="">Familias</a></li>
+                    <li><a href="">Tallas</a></li>
+                    <li><a href="">Colores</a></li>
+                    <li><a href="">Impuestos</a></li>
+                    <li><a href="">Password</a></li>
+                    <li><a href="">Provedores</a></li>
+                    <li><a href="">Empleados</a></li>
+                    <li><a href="">Perfiles</a></li>
+                    <li><a href="">Clientes</a></li>
+                    <li><a href="">Comensales</a></li>
+                    <li><a href="">Usuarios</a></li>
+                    <li><a href="">Categorias</a></li>
+                    <li><a href="">Categorias por tienda</a></li>
+                    <li><a href="">Monederos</a></li>
+
+                    <li class="divider"></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="bold no-padding"><a href="#!" class="collapsible-header no-padding ">Requisicion</a>
+                  <div class="collapsible-body" >
+                    <ul>
+                      <li><a href="">Nueva</a></li>
+                      <li><a href="">Modificar</a></li>
+                      <li><a href="">Copiar</a></li>
+                      <li><a href="">Cancelar</a></li>
+                      <li><a href="">Reporte</a></li>
+                      <li class="divider"></li>
+                    </ul>
+                  </div>
+              </li>
+              <li class="bold no-padding"><a href="#!" class="collapsible-header no-padding ">Oreden de compra</a>
+                <div class="collapsible-body" >
+                    <ul>
+                      <li><a href="">Nueva</a></li>
+                      <li><a href="">Modificar</a></li>
+                      <li><a href="">Copiar</a></li>
+                      <li><a href="">Cancelar</a></li>
+                      <li><a href="">Reporte</a></li>
+                      <li class="divider"></li>
+                    </ul>
+                  </div>
+              </li>
+              <li><a href="#!" class="collapsible-header no-padding">Compras</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Monedero</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Ventas</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Reembolso</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Mano de obra</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Almacen</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Recibo Nomina</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Control Tiempos</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Corte cafeteria</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Tesoreria</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">CFD</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Configuracion</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Documentos</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Conteo</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Sesion</a></li>
+             </ul> 
+          </li>
+        </ul>
+      
+
+      <ul id="menu" class="side-nav hide-on-large-only">
+        <img src="media/images/LogoTabares.png" class="responsive-img" >
+          <li class="divider" id="dividerMenu"></li>
+          <li class="no-padding" id="listaAcordeon">
+            <ul class="collapsible no-padding" data-collapsible="accordion">
+              <li class="bold no-padding"><a href="#!" class="collapsible-header no-padding ">Listados</a>
+                <div class="collapsible-body">
+                  <ul>
+                    <li><a href="" class="no-padding">Productos</a></li>
+                    <li><a href="" class="no-padding">Departamentos</a></li>
+                    <li><a href="" class="no-padding">Familias</a></li>
+                    <li><a href="" class="no-padding">Tallas</a></li>
+                    <li><a href="" class="no-padding">Colores</a></li>
+                    <li><a href="" class="no-padding">Impuestos</a></li>
+                    <li><a href="" class="no-padding">Password</a></li>
+                    <li><a href="" class="no-padding">Provedores</a></li>
+                    <li><a href="" class="no-padding">Empleados</a></li>
+                    <li><a href="" class="no-padding">Perfiles</a></li>
+                    <li><a href="" class="no-padding">Clientes</a></li>
+                    <li><a href="" class="no-padding">Comensales</a></li>
+                    <li><a href="" class="no-padding">Usuarios</a></li>
+                    <li><a href="" class="no-padding">Categorias</a></li>
+                    <li><a href="" class="no-padding">Categorias por tienda</a></li>
+                    <li><a href="" class="no-padding">Monederos</a></li>
+
+                    <li class="divider"></li>
+                  </ul>
+                </div>
+              </li>
+              <li class="bold no-padding"><a href="#!" class="collapsible-header no-padding ">Requisicion</a>
+                  <div class="collapsible-body" >
+                    <ul>
+                      <li><a href="" class="no-padding">Nueva</a></li>
+                      <li><a href="" class="no-padding">Modificar</a></li>
+                      <li><a href="" class="no-padding">Copiar</a></li>
+                      <li><a href="" class="no-padding">Cancelar</a></li>
+                      <li><a href="" class="no-padding">Reporte</a></li>
+                      <li class="divider"></li>
+                    </ul>
+                  </div>
+              </li>
+              <li class="bold no-padding"><a href="#!" class="collapsible-header no-padding ">Oreden de compra</a>
+                <div class="collapsible-body" >
+                    <ul>
+                      <li><a href="" class="no-padding">Nueva</a></li>
+                      <li><a href="" class="no-padding">Modificar</a></li>
+                      <li><a href="" class="no-padding">Copiar</a></li>
+                      <li><a href="" class="no-padding">Cancelar</a></li>
+                      <li><a href="" class="no-padding">Reporte</a></li>
+                      <li class="divider"></li>
+                    </ul>
+                  </div>
+              </li>
+              <li><a href="#!" class="collapsible-header no-padding ">Compras</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Monedero</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Ventas</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Reembolso</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Mano de obra</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Almacen</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Recibo Nomina</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Control Tiempos</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Corte cafeteria</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Tesoreria</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">CFD</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Configuracion</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Documentos</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Conteo</a></li>
+              <li><a href="#!" class="collapsible-header no-padding ">Sesion</a></li>
+             </ul> 
+          </li>
+        </ul>
+        <!-- FIN del IndexMenu -->
+        
+        <!--INICIO contenido-->
+        <div class="row col s12">
+          <div class="row col s12">
+            <div class="row col s12">
+              <h1>Cambiar password</h1>
+            </div>
+            <fieldset>
+              <legend><b><h4>Datos:</h4></b></legend>
+              <div class="row">
+                <form class="col s12"> 
+                  <div class="row center">
+                    <div class="input-field col s4 push-s4">
+                      <i class="material-icons prefix">account_circle</i><input type="text" id="usuario" disabled="true" />
+                      <label for="usuario">usuario logeado</label>
+                    </div>
+                  </div>
+                  <div class="row center">
+                    <div class="input-field col s6 push-s3">
+                      <i class="material-icons prefix">vpn_key</i><input type="text" id="passAnt"/>
+                      <label for="passAnt">Pasword anterior</label>
+                    </div>
+                  </div>
+                    <br>
+                  <div class="row center">
+                    <div class="input-field col s6 push-s3">
+                      <i class="material-icons prefix">vpn_key</i><input type="text" id="passNew"/>
+                      <label for="passNew">Pasword nuevo</label>
+                    </div>
+                  </div>
+                  <br>
+                  <div class="row center">
+                    <div class="input-field col s6 push-s3">
+                      <i class="material-icons prefix">vpn_key</i><input type="text" id="passNewConf"/>
+                      <label for="passNewConf">Confirmar pasword nuevo</label>
+                    </div>
+                  </div>
+                  <div class="row center">
+                    <div class="input-field col s12 ">
+
+                      <i class="material-icons prefix">vpn_key</i><button class="btn waves-effect waves-light modal-trigger" href="#modal1" type="submit" name="action">Actualizar
+                      <i class="material-icons right">send</i> 
+                      </button>
+                      <!-- INICIA modal -->
+
+                     <!-- declaracion basica de un trigger para el modal
+                     <a class="modal-trigger waves-effect waves-light btn" href="#modal1">r</a> -->
+
+                      <div id="modal1" class="modal modal-fixed-footer">
+                        <div class="modal-content">
+                          <h4><b>Correcto</b></h4>
+                          <p id="contModal" class="center">Su contrase&ntilde;a fue modificada satisfactoriamente</p>
+                        </div>
+                        <div class="modal-footer">
+                          <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat ">Agree</a>
+                        </div>
+                      </div>
+                      <!-- TERMINA modal -->
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </fieldset>
+
+            
+
+          </div>
+        </div>
+
+        <!--FIN contenido-->
+       
+
+    
+
+
+
+    </body>
+   
+    <footer class="row col s12 ">
+      <div class="contaimer col s12 ">
+        <div class="row col s12 center ">
+          <i><script>fecha();</script></i>&nbsp;<b><span id="liveclock" ></span></b> 
+          <div class="row black-text text-black center col s12">
+            Copyright © 2013 Soluciones Digitales y de Procesos S.A. de C.V. Todos los derechos reservados |
+            <a class="light-blue-text text-darken-4" href="http://www.solucionesdigitales.com.mx/contacto.html"><b>Contacto</b></a>
+             |
+            <a class="light-blue-text text-darken-4 " href="http://www.solucionesdigitales.com.mx/legales.html"><b>Legales</b></a>
+             |
+          </div>
+        </div>
+      </div>
+    </footer> 
+  
+  </html>
