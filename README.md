@@ -1,1 +1,3 @@
 # pantallas
+this repository contains a code in html, css and js which use the API MaterializeCss in order to present a design alternitive to use in "soluciones digitales" and the ERP proyects.
+-Carlos Silva...
