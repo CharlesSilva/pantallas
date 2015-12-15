@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <html>
-
-    
+    <head>
+      <title>Tabares BM</title>
       <!--Import Google Icon Font-->
       <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
@@ -9,7 +9,10 @@
       
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+      <!-- establecemos el icono de la pagina -->
       <link rel="shortcut icon" href="media/favicon.png" type="image/x-icon" />
+
       <!-- Insertamos la hoja de estilos del Menu -->
       <link rel="stylesheet" type="text/css" href="css/styleMenu.css">
 
@@ -22,7 +25,7 @@
       }
 
       </style>
-      </head>
+    </head>
 
     <body>
       <!--Import jQuery before materialize.js-->
@@ -56,17 +59,18 @@
           </nav>
         </div>
       </header>
-      <!-- INICIO del IndexMenu -->
+    <!-- INICIO del IndexMenu -->
+      <!-- INICIO del IndexMenu en pantalla completa -->
       
         <ul id="slide-out" class="side-nav fixed hide-on-med" id="IndexMenu">
           <img src="media/images/LogoTabares.png" class="responsive-img" >
           <li class="divider" id="dividerMenu"></li>
           <li class="no-padding" id="listaAcordeon">
             <ul class="collapsible no-padding" data-collapsible="accordion">
-              <li class="bold no-padding"><a href="#!" class="collapsible-header no-padding ">Listados full</a>
+              <li class="bold no-padding"><a href="#!" class="collapsible-header no-padding ">Listados</a>
                 <div class="collapsible-body">
                   <ul>
-                    <li><a href="">Productos</a></li>
+                    <li><a href="productos.html">Productos</a></li>
                     <li><a href="">Departamentos</a></li>
                     <li><a href="">Familias</a></li>
                     <li><a href="">Tallas</a></li>
@@ -129,7 +133,9 @@
              </ul> 
           </li>
         </ul>
-      
+      <!-- FIN del IndexMenu en pantalla completa -->
+
+      <!-- INICIO del IndexMenu en pantalla pequeña -->
 
       <ul id="menu" class="side-nav hide-on-large-only">
         <img src="media/images/LogoTabares.png" class="responsive-img" >
@@ -139,7 +145,7 @@
               <li class="bold no-padding"><a href="#!" class="collapsible-header no-padding ">Listados</a>
                 <div class="collapsible-body">
                   <ul>
-                    <li><a href="" class="no-padding">Productos</a></li>
+                    <li><a href="productos.html" class="no-padding">Productos</a></li>
                     <li><a href="" class="no-padding">Departamentos</a></li>
                     <li><a href="" class="no-padding">Familias</a></li>
                     <li><a href="" class="no-padding">Tallas</a></li>
@@ -202,9 +208,10 @@
              </ul> 
           </li>
         </ul>
-        <!-- FIN del IndexMenu -->
+      <!-- FIN del IndexMenu en pantalla pequeña -->
+    <!-- FIN del IndexMenu -->
         
-        <!--INICIO contenido-->
+      <!--INICIO contenido-->
         <div class="row col s12">
           <div class="row col s12">
             <div class="row col s12">
@@ -272,7 +279,7 @@
           </div>
         </div>
 
-        <!--FIN contenido-->
+      <!--FIN contenido-->
        
 
     
